@@ -5,7 +5,7 @@ from collections import namedtuple
 
 # define the `Detection` object
 grandTruth = namedtuple("grandTruth", ["image_path", "gt1","gt2","gt3","gt4"])
-imagePath = "D:/ThesisImplementation/CoastlineObjectDetection/grandtruth"
+imagePath = "/grandtruth"
 finalIou = 0
 objects = 0
 
