@@ -5,7 +5,7 @@ from collections import namedtuple
 
 # define the `Detection` object
 grandTruth = namedtuple("grandTruth", ["image_path", "gt1","gt2","gt3","gt4","gt5","gt6","gt7"])
-imagePath = "D:/ThesisImplementation/CoastlineObjectDetection/grandtruth"
+imagePath = "/grandtruth"
 
 def bb_intersection_over_union(boxA, boxB):
 	if boxA != None:
